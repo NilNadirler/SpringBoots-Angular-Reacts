@@ -1,0 +1,22 @@
+package net.javaguides.springboot.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import net.javaguides.springboot.service.UserService;
+
+@Controller
+@RequestMapping
+public class UserRegistrationController {
+
+	private UserService userService;
+	
+
+	public UserRegistrationController(UserService userService) {
+		super();
+		this.userService = userService;
+	}
+
+	public String registerUserAccount()
+	
+}

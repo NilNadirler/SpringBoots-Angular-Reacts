@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&#x0D;&#x0A;&#x09;&#x09;  ModelMapper modelMapper = new ModelMapper();&#x0D;&#x0A;&#x09;&#x09;  User user = modelMapper.map(registrationDto, User.class);&#x0D;&#x0A;&#x09;&#x09;  user.setEmail(registrationDto.getEmail());&#x0D;&#x0A;&#x09;&#x09;  user.setFirstName(registrationDto.getFirstName());&#x0D;&#x0A;&#x09;&#x09;  user.setLastName(registrationDto.getLastName());&#x0D;&#x0A;&#x09;&#x09;  user.setPassword(registrationDto.getPassword());&#x0D;&#x0A;&#x09;&#x09;  &#x0D;&#x0A;&#x09;&#x09;  return userRepository.save(user);"/>
+		<list key="findhistory">
+			<item value="&#x0D;&#x0A;&#x09;&#x09;  ModelMapper modelMapper = new ModelMapper();&#x0D;&#x0A;&#x09;&#x09;  User user = modelMapper.map(registrationDto, User.class);&#x0D;&#x0A;&#x09;&#x09;  user.setEmail(registrationDto.getEmail());&#x0D;&#x0A;&#x09;&#x09;  user.setFirstName(registrationDto.getFirstName());&#x0D;&#x0A;&#x09;&#x09;  user.setLastName(registrationDto.getLastName());&#x0D;&#x0A;&#x09;&#x09;  user.setPassword(registrationDto.getPassword());&#x0D;&#x0A;&#x09;&#x09;  &#x0D;&#x0A;&#x09;&#x09;  return userRepository.save(user);"/>
+			<item value="&#x09;&#x09;"/>
+			<item value="  ModelMapper modelMapper = new ModelMapper();"/>
+			<item value=" ModelMapper modelMapper = new ModelMapper();"/>
+		</list>
+	</section>
+</section>

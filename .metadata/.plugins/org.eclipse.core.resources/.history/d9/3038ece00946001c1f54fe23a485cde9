@@ -1,0 +1,6 @@
+package net.javaguides.springboot.repository;
+
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Long > {
+
+}
